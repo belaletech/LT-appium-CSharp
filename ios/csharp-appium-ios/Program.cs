@@ -19,7 +19,7 @@ namespace csharp_appium_first
             caps.AddAdditionalCapability("accessKey", Environment.GetEnvironmentVariable("LT_ACCESS_KEY"));
 
             // Set URL of the application under test
-            caps.AddAdditionalCapability("app", "lt://APP10160591941768565664336296"); //Enter the App URL here.
+             caps.AddAdditionalCapability("app", "APP_URL"); //Add the App ID
 
             // Specify device and os_version
             caps.AddAdditionalCapability("deviceName", "iPhone 15"); //Change the device name here

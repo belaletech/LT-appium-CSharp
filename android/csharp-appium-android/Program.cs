@@ -20,7 +20,7 @@ namespace csharp_appium
 
 
             // Set URL of the application under test
-            caps.AddAdditionalCapability("app", "lt://APP10160311521768935596417357"); //Add the App ID
+             caps.AddAdditionalCapability("app", "APP_URL"); //Add the App ID
 
             // Specify device and os_version
             caps.AddAdditionalCapability("deviceName", "Galaxy S25");  //Add the Device Details
